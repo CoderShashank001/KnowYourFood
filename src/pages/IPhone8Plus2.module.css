@@ -1,0 +1,89 @@
+.registrationBackground {
+  width: calc(100% - 178px);
+  height: calc(100% - 159.8px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0.02px;
+  right: -117.96px;
+  bottom: 159.78px;
+  left: 295.96px;
+  box-shadow: 0-4px 36.9px 10px #ffc700;
+  background-color: var(--color-red);
+  transform: rotate(45.2deg);
+  transform-origin: 0 0;
+}
+.c3dccec9B5e047089688E4328dIcon {
+  width: 286px;
+  height: 281px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.register {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+}
+.registerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 73px;
+}
+.iphone8Plus3,
+.registrationBackgroundParent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.registrationBackgroundParent {
+  margin-top: -626px;
+  margin-left: -121px;
+  height: 576.7px;
+  justify-content: flex-end;
+  padding: var(--padding-201xl) var(--padding-119xl) var(--padding-56xl-7)
+    var(--padding-133xl);
+  gap: 76px;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  max-width: 176%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.iphone8Plus3 {
+  width: 100%;
+  height: 736px;
+  box-shadow: 0 4px 34.2px 11px #b14f48;
+  border-radius: var(--br-lg);
+  background-color: var(--color-royalblue);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 398px 43px var(--padding-smi);
+  gap: 49.3px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 288px) {
+  .registrationBackgroundParent {
+    gap: 19px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 271px) {
+  .registerWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
